@@ -1,6 +1,6 @@
 # rdp-bruteforcer
 
-Used as a proof of concept for testing security defenses
+Used as a proof of concept for testing security defenses. 
 
 ## Usage
 ```
@@ -18,3 +18,7 @@ Options:
 
 ## Running
 Clone git repo, run `cargo install`. Requires rust / cargo locally. To get started, visit https://rustup.rs/
+
+## Disclaimer
+
+This tool is only intented to be used in penetration tests or security demonstrations where you have *authorization from the target computer's owner*. **Do not use this tool for illegal purposes.**
