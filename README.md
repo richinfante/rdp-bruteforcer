@@ -1,16 +1,17 @@
 # rdp-bruteforcer
 
-Used as a proof of concept for testing security defenses. 
+Used as a proof of concept for testing security defenses.
 
 ## Usage
 ```
-Usage: rdp-bruteforcer [OPTIONS] --target <TARGET> --password-list <PASSWORD_LIST>
+Usage: rdp-bruteforcer [OPTIONS] --target <TARGET>
 
 Options:
       --logon-domain <LOGON_DOMAIN>    Windows logon domain. Optional, default is 'domain'
       --target <TARGET>                A target IP:PORT pair
       --proxy <PROXY>                  A proxy IP:PORT pair
       --password-list <PASSWORD_LIST>  A file path on disk to use for a password source
+      --hash-list <HASH_LIST>          A file on disk that contains hex-formatted NTLM hashes to connect with
       --username-list <USERNAME_LIST>  A file on disk as a username source (if not used, specify --username)
       --username <USERNAME>            A specific username to try (if not used, specify --username-list
   -h, --help                           Print help information
